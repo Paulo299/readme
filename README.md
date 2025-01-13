@@ -1,6 +1,6 @@
 # readme
 readme forencis
-3. picoCTF{r34d1ng_b37w33n_7h3_by73s
+Réponse 2
 ┌──(kali㉿kali)-[~/Desktop/Cluehub-Playground/01-WarmupForensics-Labs/03_Reading_Between_The_Eyes]
 └─$ sudo gem install zsteg
 [sudo] password for kali: 
@@ -27,3 +27,8 @@ b4,bgr,lsb,xy       .. text: "A%2RTdGG"
 b4,bgr,msb,xy       .. text: "EPD%4\"c\"#CUVqa "
 b4,rgba,lsb,xy      .. text: "?5/%/d_tO"
 b4,abgr,msb,xy      .. text: "EO%O#/c/2/C_e_q"
+Réponse 3. picoCTF{r34d1ng_b37w33n_7h3_by73s
+Réponse 4. picoCTF{th3_5n4p_happ3n3d}
+
+
+  
