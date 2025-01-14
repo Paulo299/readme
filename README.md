@@ -39,4 +39,24 @@ Réponse 0xC ![image](https://github.com/user-attachments/assets/29052c40-9368-4
 
 
 
-  
+
+
+TP 3 MemoryForensics-Labs
+
+Lab 1 : 
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/f37f2e4d-5294-4174-bbb2-82122210b3c6" />
+
+335d366f5d6031767631707f
+
+<img width="617" alt="image" src="https://github.com/user-attachments/assets/bc375b93-cf97-4f28-9378-f9fb344eb6c2" />
+
+2424 conhost.exe          0x002934b0 Thanos                         xor and password
+
+C:\Users\Prasanth\Downloads\volatility_2.6_win64_standalone\volatility_2.6_win64_standalone>volatility_2.6_win64_standalone.exe -f C:\Users\Prasanth\Downloads\Challenge.raw --profile=Win7SP1x86_23418 hashdump
+Volatility Foundation Volatility Framework 2.6
+Administrator:500:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+hello:1000:aad3b435b51404eeaad3b435b51404ee:101da33f44e92c27835e64322d72e8b7:::
+
+
+
