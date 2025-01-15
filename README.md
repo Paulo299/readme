@@ -28,7 +28,8 @@ b4,bgr,msb,xy       .. text: "EPD%4\"c\"#CUVqa "
 b4,rgba,lsb,xy      .. text: "?5/%/d_tO"
 b4,abgr,msb,xy      .. text: "EO%O#/c/2/C_e_q"
 Réponse 3. picoCTF{r34d1ng_b37w33n_7h3_by73s
-Réponse 4. picoCTF{th3_5n4p_happ3n3d}
+Réponse 4. picoCTF{th3__l345t_s1gn1f1c4nT_b1t5_770554193
+
 Réponse 5. PicoCT Fnots3cur3_df59 8569
 Réponse 6.Your flag is: "picoCTF{and_thats_how_u_edit_hex_kittos_8BcA67a2}"
 Réponse 7.picoCTF{look_in_image_788a182e}
@@ -120,6 +121,246 @@ Recommandation : Dans des situations futures, il est recommandé d'utiliser une 
 
 ![image](https://github.com/user-attachments/assets/d03d8f48-92cc-4a1d-ab93-2ecec3a1e09d)
 
+ TP 3 MemoryForensics-Labs 
 
+ 
+
+ 
+
+ 
+
+Une image contenant texte, capture d’écran, Police, menu
+
+Description générée automatiquement 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Une image contenant texte, capture d’écran, Police
+
+Description générée automatiquement 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+05-ChallengeForensics-Labs 
+
+ 
+
+001-ForensicChallenge-pcap_attack_trace 
+
+ 
+
+Challenge 1 - Analyse d'une trace réseau d'attaque 
+
+L'objectif est d'enquêter sur une attaque réseau. 
+
+Niveau de compétence : Intermédiaire 
+
+Forme 
+
+Le Challenge : 
+
+Une trace réseau contenant des données d'attaque est fournie. 
+(Note : l'adresse IP de la victime a été modifiée pour masquer sa véritable localisation.) 
+Analysez cette trace et répondez aux questions suivantes : 
+
+Quels systèmes (c.-à-d. adresses IP) sont impliqués ? 
+(2 points) 
+
+Une image contenant Logiciel multimédia, logiciel, texte, capture d’écran
+
+Description générée automatiquement 
+
+ 
+
+Que pouvez-vous découvrir sur l'hôte attaquant (par exemple, où est-il situé) ? 
+(2 points) 
+
+Une image contenant texte, capture d’écran, logiciel, Page web
+
+Description générée automatiquement 
+
+Combien de sessions TCP sont contenues dans le fichier de capture ? 
+(2 points) 
+
+il y a 5 sessions contenues dans ce fichier dump. 
+
+Une image contenant texte, logiciel, Logiciel multimédia, capture d’écran
+
+Description générée automatiquement 
+
+Combien de temps a duré l'attaque ? 
+(2 points) 
+
+Une image contenant texte, capture d’écran, logiciel, Logiciel multimédia
+
+Description générée automatiquement 
+
+ 
+
+ 
+
+ 
+
+Quel système d'exploitation a été ciblé par l'attaque ? Quel service ? Quelle vulnérabilité ? 
+(6 points) 
+
+Une image contenant texte, Police, capture d’écran, ligne
+
+Description générée automatiquement 
+
+ 
+
+Pouvez-vous dresser une vue d'ensemble des actions générales effectuées par l'attaquant ? 
+(6 points) 
+
+Quelle vulnérabilité spécifique a été exploitée ? 
+(2 points) 
+
+Une image contenant texte, Police, nombre, ligne
+
+Description générée automatiquement 
+
+CVE-2003-0533 
+
+Quelles actions le shellcode effectue-t-il ? Veuillez lister le shellcode. 
+(8 points) 
+
+Pensez-vous qu'un honeypot a été utilisé pour simuler une victime vulnérable ? Pourquoi ? 
+(6 points) 
+
+Oui 
+
+Un malware était-il impliqué ? Quel est le nom de ce malware ? 
+*(Nous ne cherchons pas une analyse détaillée du malware pour ce challenge.) 
+(2 points)   ssms.exe 
+
+Une image contenant texte, capture d’écran, Police, logiciel
+
+Description générée automatiquement 
+
+Pensez-vous que cette attaque était manuelle ou automatisée ? Pourquoi ? 
+(2 points) 
+
+L'attaque est automatisée, comme le montre le scan de ports initial, les connexions rapides (moins d'une seconde). 
+
+ 
+
+ 
+
+ 
+
+Challenge 3 - Problèmes bancaires 
+
+ 
+
+Le Challenge : 
+
+La société X vous a contacté pour réaliser une analyse forensique à la suite d’un incident récent. L’un de leurs employés a reçu un email d’un collègue contenant un lien vers un fichier PDF. Après l’ouverture de ce fichier, l’employé n’a rien remarqué d’inhabituel, mais a récemment constaté une activité inhabituelle sur son compte bancaire. La société X a réussi à obtenir une image mémoire de la machine virtuelle de l’employé après la suspicion d’infection. 
+
+Votre mission est d'analyser cette image mémoire et de produire un rapport d'investigation détaillé. Les questions ci-dessous vous guideront dans cette analyse. 
+
+ 
+
+Questions d'investigation : 
+
+Listez les processus qui étaient en cours d'exécution sur la machine de la victime. Quel processus est le plus susceptible d’être à l’origine de l’exploit initial ? (2 points) 
+
+ 
+
+Le processus ayant exécuté l'exploit, AcroRd32.exe, a rencontré un problème après l'ouverture du fichier PDF. Son PID est 1752, et son processus parent est firefox.exe, avec le PID 888. 
+
+ 
+
+Listez les sockets ouverts sur la machine de la victime pendant l'infection. Y a-t-il des processus suspects qui ont des sockets ouverts ? (4 points) 
+
+ 
+
+Le processus avec le PID 1752 (AcroRd32.exe) et le navigateur Firefox avec le PID 888 ont tous deux établi des connexions avec l'adresse IP 212.150.164.203, ce qui indique une activité potentiellement malveillante liée à cette adresse. 
+
+ 
+
+Listez les URL suspectes qui pourraient se trouver dans la mémoire du processus suspect. (2 points) 
+
+ 
+
+ 
+
+ 
+
+Y a-t-il d’autres processus contenant des URL qui pourraient indiquer des problèmes bancaires ? Si oui, quels sont ces processus et quelles sont les URL correspondantes ? (4 points) 
+
+Y avait-il des fichiers pouvant être extraits du processus initial ? Comment ces fichiers ont-ils été extraits ? 
+(6 points) 
+
+Si un fichier a été extrait du processus initial, quelles techniques a-t-il utilisées pour réaliser l'exploit ? 
+(8 points) 
+
+Listez les fichiers suspects qui ont été chargés par les processus sur la machine de la victime. À partir de ces informations, quel pourrait être le payload de l'exploit initial affectant le compte bancaire de la victime ? 
+(2 points) 
+
+Si des fichiers suspects peuvent être extraits d’un processus injecté, des produits antivirus détectent-ils l’exécutable suspect ? Quels sont les résultats généraux des antivirus ? 
+(6 points) 
+
+Y a-t-il des entrées de registre associées au payload ? 
+(4 points) 
+
+Quelle technique a été utilisée dans l'exploit initial pour injecter du code dans d'autres processus ? 
+(6 points) 
+
+ 
+
+ 
+
+ 
 
   
