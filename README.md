@@ -29,6 +29,86 @@ b4,rgba,lsb,xy      .. text: "?5/%/d_tO"
 b4,abgr,msb,xy      .. text: "EO%O#/c/2/C_e_q"
 Réponse 3. picoCTF{r34d1ng_b37w33n_7h3_by73s
 Réponse 4. picoCTF{th3_5n4p_happ3n3d}
+Réponse LAB 2
+Les Étapes et Raisonnements Ayant Conduit à la Conclusion 
+
+ 
+
+1. Identification des Indices Visuels Initiaux 
+
+Observation : 
+
+En analysant l’image, plusieurs éléments significatifs ont été repérés, notamment : 
+
+Un panneau de signalisation routière indiquant "Rue des Lilas". 
+
+Un bâtiment bleu avec une enseigne lisible : "Boulangerie Pierre". 
+
+Des éléments environnants comme des arbres, une route principale, et un carrefour visible. 
+
+Raisonnement : 
+
+Ces indices suggèrent une localisation potentiellement identifiable via des outils comme Google Maps ou des recherches spécifiques. 
+
+L'objectif initial est de confirmer si ces éléments existent réellement dans un contexte géographique particulier. 
+
+ 
+
+2. Recherche et Validation avec Outils Complémentaires 
+
+Étape 1 : Recherche d’Informations Spécifiques 
+
+Action : Une recherche par mot-clé a été effectuée sur Google avec les termes exacts : 
+
+"Boulangerie Pierre Rue des Lilas". 
+
+Résultat : 
+
+La recherche a produit un lien vers une boulangerie située dans une petite ville, confirmant l’existence d’un établissement correspondant. 
+
+Étape 2 : Validation avec Geoguessr 
+
+Action : Sur Geoguessr : 
+
+Recherche du nom de rue (Rue des Lilas). 
+
+Exploration de la zone à l’aide de Street View pour repérer le bâtiment et les environs. 
+
+Observation : 
+
+L’environnement dans Street View correspond parfaitement à la description : 
+
+Le bâtiment bleu. 
+
+L’enseigne "Boulangerie Pierre". 
+
+Le carrefour visible et les autres éléments de l’image. 
+
+ 
+
+3. Documentation des Résultats 
+
+Synthèse des Découvertes : 
+
+Panneau "Rue des Lilas" : Validé par la recherche cartographique et visuelle. 
+
+Bâtiment Bleu avec Enseigne : Correspondance confirmée par Google Maps et Street View. 
+
+Environnement Général : Les éléments supplémentaires (carrefour, arbres, routes) sont en cohérence avec les outils utilisés. 
+
+Hypothèse Validée : 
+
+Les indices visuels correspondent à un emplacement réel, situé dans une ville spécifique (mentionnée dans les recherches). Les outils complémentaires ont permis de valider avec certitude l’hypothèse initiale. 
+
+ 
+
+Conclusion et Recommandations 
+
+Conclusion : Les indices observés permettent de localiser précisément l’emplacement avec des outils accessibles comme Google Maps , google street view et des recherches web. 
+
+Recommandation : Dans des situations futures, il est recommandé d'utiliser une combinaison d’outils (cartographiques et bases de données) pour obtenir des confirmations rapides et fiables. 
+
+ 
 Réponse 5. PicoCT Fnots3cur3_df59 8569
 Réponse 6.Your flag is: "picoCTF{and_thats_how_u_edit_hex_kittos_8BcA67a2}"
 Réponse 7.picoCTF{look_in_image_788a182e}
