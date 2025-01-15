@@ -29,6 +29,14 @@ b4,rgba,lsb,xy      .. text: "?5/%/d_tO"
 b4,abgr,msb,xy      .. text: "EO%O#/c/2/C_e_q"
 Réponse 3. picoCTF{r34d1ng_b37w33n_7h3_by73s
 Réponse 4. picoCTF{th3_5n4p_happ3n3d}
+Réponse 5. PicoCT Fnots3cur3_df59 8569
+Réponse 6.Your flag is: "picoCTF{and_thats_how_u_edit_hex_kittos_8BcA67a2}"
+Réponse 7.picoCTF{look_in_image_788a182e}
+Réponse 8 .picoCTF{now_y0u_533_m3}
+Pour trouver la réponse de la question 8 nous avons été sur stageOnloine
+Réponse 0xA picoCTF{w4lt3r_wh1t3_2d6d3c6c75aa3be7f42debed8ad16e3b}
+Réponse 0xC ![image](https://github.com/user-attachments/assets/29052c40-9368-49ab-8017-d7f677e45aad)
+
 Réponse LAB 2
 Les Étapes et Raisonnements Ayant Conduit à la Conclusion 
 
@@ -42,7 +50,7 @@ En analysant l’image, plusieurs éléments significatifs ont été repérés, 
 
 Un panneau de signalisation routière indiquant "Rue des Lilas". 
 
-Un bâtiment bleu avec une enseigne lisible : "Boulangerie Pierre". 
+ une enseigne lisible : "Boulangerie Pierre honoré". 
 
 Des éléments environnants comme des arbres, une route principale, et un carrefour visible. 
 
@@ -108,14 +116,9 @@ Conclusion : Les indices observés permettent de localiser précisément l’emp
 
 Recommandation : Dans des situations futures, il est recommandé d'utiliser une combinaison d’outils (cartographiques et bases de données) pour obtenir des confirmations rapides et fiables. 
 
- 
-Réponse 5. PicoCT Fnots3cur3_df59 8569
-Réponse 6.Your flag is: "picoCTF{and_thats_how_u_edit_hex_kittos_8BcA67a2}"
-Réponse 7.picoCTF{look_in_image_788a182e}
-Réponse 8 .picoCTF{now_y0u_533_m3}
-Pour trouver la réponse de la question 8 nous avons été sur stageOnloine
-Réponse 0xA picoCTF{w4lt3r_wh1t3_2d6d3c6c75aa3be7f42debed8ad16e3b}
-Réponse 0xC ![image](https://github.com/user-attachments/assets/29052c40-9368-49ab-8017-d7f677e45aad)
+ ![image](https://github.com/user-attachments/assets/4150e252-5e13-4c1d-951c-2f7bf05a6244)
+
+![image](https://github.com/user-attachments/assets/d03d8f48-92cc-4a1d-ab93-2ecec3a1e09d)
 
 
 
